@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Elenco Post</h1>
+
+<ul>
+  {% for post in object_list %}
+    <li class="post">{{ post.title }} - {{ post.text }}</li>
+  {% endfor %}
+</ul>>
+
+</body>
+</html>
